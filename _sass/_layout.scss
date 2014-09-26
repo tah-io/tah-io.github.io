@@ -221,6 +221,7 @@ span + .entry-title {
 	margin-top: 0;
 }
 .entry-title {
+	font-size: 3rem !important;
 	font-family: $alt-font;
 	font-style: italic;
 	@include font-size(36,yes,36);

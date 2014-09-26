@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Control anything around you with a smartphone. Tah is an Arduino at its heart with bluetooth low energy (BLE) onboard.
 logo: site-logo.png
 search: true
-url:
+url: blog.tah.io
 
 
 # Jekyll configuration
@@ -35,7 +35,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Revealing Hour Creations
   email: help@tah.io
-  disqus-shortname:
+  disqus-shortname: tahio
   twitter: tah_io
   facebook: pages/Tah/633568926721880
   github: tah-io
