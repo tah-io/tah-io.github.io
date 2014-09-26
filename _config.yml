@@ -8,9 +8,6 @@ logo: site-logo.png
 search: true
 url:
 
-
-
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
