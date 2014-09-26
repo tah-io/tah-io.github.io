@@ -3,7 +3,7 @@
 title: Tah
 locale: en_US
 description: > # this means to ignore newlines until "baseurl:"
-  Control anything around you with a smartphone. Tah is an Arduino at its heart with bluetooth low energy (BLE) onboard.
+  Tah is an Arduino at its heart with bluetooth low energy (BLE) onboard.
 logo: site-logo.png
 search: true
 url:

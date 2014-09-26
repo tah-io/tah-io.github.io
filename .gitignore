@@ -1,2 +1,5 @@
 _site
 .sass-cache
+Gruntfile.js
+node_modules
+package.json
