@@ -25,17 +25,17 @@ I designed the complete schematic and pcb layout for first batch of Tah having d
 
 **Hardware:**
 
-1.Raspberry Pi B or B+
-2.16:1 Mux 74HCF4051
-3.8:1 Mux HCF4051
-4.BC547
-5.26pin FRC cable
-6.5v Buzzer
-7.16x2 LCD
-8.Multistand wires
-9.Push Buttons
-10.Resistors
-11.AVR ISPmkII programmer
+1.Raspberry Pi B or B+  
+2.16:1 Mux 74HCF4051  
+3.8:1 Mux HCF4051  
+4.BC547  
+5.26pin FRC cable  
+6.5v Buzzer  
+7.16x2 LCD  
+8.Multistand wires  
+9.Push Buttons  
+10.Resistors  
+11.AVR ISPmkII programmer  
 
 You will find the exact value components in the schematic file, I would explain the basic concepts behind the Tah Testbed based on raspberry pi, Here i had design the Testbed with some descrete and few integrated circuits chips and use the LCD display to show testing messages while conducting actual testing. Here we had to test GPIO pins and Analog pins of Tah boards this we did it completely automatic with raspberry pi acting as a central processing unit. Tah is an arduino compatible board so to test Tah over Rpi need to upload the Tah test sketches from raspberry pi without using arduino IDE their is method of doing this with [Arduino Makefile](http://www.linuxcircle.com/2013/05/15/programming-and-uploading-arduino-sketch-without-ide/) i followed this tutorial for doing this.
 
