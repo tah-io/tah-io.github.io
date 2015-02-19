@@ -22,37 +22,24 @@ While I was working on Tah Testbed design it was half way cooked design but I fo
 
 ![testbedsch](https://cloud.githubusercontent.com/assets/8414343/6222256/75e543d0-b676-11e4-98ad-55986bbfd3f3.png)
 
-This was the schematic of Tah Testbed, you will get all the project hardware files [here](https://github.com/RevealingHourCreations/Tah_Testbed)
+This was the schematic of Tah Testbed, you will get all the project hardware files [here](https://github.com/tah-io/Tah_Testbed/tree/master/Hardware)
 
 I designed the complete schematic and pcb layout for first batch of Tah having different footprint. The complete technical descriptions of the Tah Testbed as below.
 
 **Hardware:**
 
-<<<<<<< HEAD
-1. Raspberry Pi B or B+
-2. 16:1 Mux 74HCF4051
-3. 8:1 Mux HCF4051
-4. BC547
-5. 26 pin FRC cable
-6. 5v Buzzer
-7. 16x2 LCD
-8. Multistand wires
-9. Push Buttons
-10. Resistors
-11. AVR ISP mkII programmer
-=======
-1.Raspberry Pi B or B+  
-2.16:1 Mux 74HCF4051  
-3.8:1 Mux HCF4051  
-4.BC547  
-5.26pin FRC cable  
-6.5v Buzzer  
-7.16x2 LCD  
-8.Multistand wires  
-9.Push Buttons  
-10.Resistors  
-11.AVR ISPmkII programmer  
->>>>>>> 3aca53cd5d85940e4433e3ca5d90e672b0ff71ee
+1. Raspberry Pi B or B+  
+2. 16:1 Mux 74HCF4051  
+3. 8:1 Mux HCF4051  
+4. BC547  
+5. 26pin FRC cable  
+6. 5v Buzzer  
+7. 16x2 LCD  
+8. Multistand wires  
+9. Push Buttons  
+10. Resistors  
+11. AVR ISPmkII programmer  
+
 
 You will find the exact value components in the schematic file, I would explain the basic concepts behind the Tah Testbed based on Raspberry Pi, Here I had design the Testbed with some descrete and few integrated circuits chips and use the LCD display to show testing messages while conducting actual testing. Here we had to test GPIO pins and Analog pins of Tah boards this we did it completely automatic with Raspberry Pi acting as a central processing unit. Tah is an arduino compatible board so to test Tah over Raspbery Pi need to upload the Tah test sketches from Raspberry Pi without using arduino IDE their is method of doing this with [Arduino Makefile](http://www.linuxcircle.com/2013/05/15/programming-and-uploading-arduino-sketch-without-ide/) I followed this tutorial for doing this.
 
@@ -77,7 +64,7 @@ After this test run of Tah Testing we divided the kind of work like software upg
 * On Raspberry Pi it will actually upload the test sketches to Tah and test each individual pin sets for Logic High or not using MUX logic   	and status will be displayed on LCD display.
 * At last it will upload the ArdSCL sketch to boards and logs result to CSV file.
 
-You will find all the Tah Testbed source files and hardware design files [here](https://github.com/RevealingHourCreations/Tah_Testbed)
+You will find all the Tah Testbed source code files and hardware design files [here](https://github.com/tah-io/Tah_Testbed)
 
 ![testbedcompare](https://cloud.githubusercontent.com/assets/8414343/6125009/0c270d36-b138-11e4-8347-c29e112403fc.jpg)
 
