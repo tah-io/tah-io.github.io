@@ -13,9 +13,6 @@ comments: true
 share: true
 ---
 
-Compiling Tah Caterina With New VID/PID
-===
-
 Tah is a Bluetooth Low Energy Arduino compatilble microcontroller based development platform. The Tah has a Arduino Leonardo at its heart, Tah uses the built-in USB of the atmega32u4 rather than a discrete USB-to-serial IC. All USB devices have two identification numbers: a vendor ID (VID) and a product ID (PID). Each organization that produces USB devices pays the USB-IF for a VID, giving them the ability to self-issue PIDs. We've obtained a PID and a pair of VID to compile the bootloader. Lets generate a new .hex file for Tah board with new VID/PID.
 
 Here I had used the Linux machine to compile the new bootloader file, similarly you can do it on Windows machine. Lets start with this tutorial.

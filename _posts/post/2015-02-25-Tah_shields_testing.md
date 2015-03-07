@@ -13,9 +13,6 @@ comments: true
 share: true
 ---
 
-Tah and Shields Testing 
-===
-
 As we all knows we had successfully completed the Tah on crowdfunding campagn, with lot of love and appreciations from the backers we are fully energized and focusing towards for successful shipping of Tah boards and all Tah Shields, to delevered a quality based products by having a regerous testing of boards and shields. To test all the boards I was working on the tessting automization of all the Tah boards and shields, all the Tah boards go through the automatic testing with the help of **Tah Testbed** the complete hardware is designed based on Raspberry Pi and similarly 2 Shields need to go through the manual testing and IR shiedls will go through the semi-automatic testing and all the logs are made automatic using the Raspberry Pi.
 		
 While I was working on Tah Testbed design it was half way cooked design but I found there were long way to go in the design of Tah Testbed, previously the Ali and Anuj was working on this Tah Testbed, Ali had design the Testbed on general purpose pcb, when I saw that pcb I descided, I better not to go through that pcb it was very difficult for me to decode what the actual circuit is. All the project files were stored on github, Once I got an idea  of the first version of Tah Testbed hardware, I planed to designed a new home made pcb for Tah Testbed, by simply having few modifications to hardware design I finallize the circuit and I did the Schematic and layout design in Eagle CAD software which mainly used for professional PCB design.
